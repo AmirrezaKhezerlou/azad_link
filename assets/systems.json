@@ -9,7 +9,11 @@
   },
   {
     "name": "سامانه رایانامه دانشجویی",
-    "link": "https://account.iau.ac.ir/login?service=https://mail.iau.ac.ir&redirectPath=/nui/validate"
+    "link": "https://account.iau.ac.ir/login"
+  },
+  {
+    "name": "باشگاه پژوهشگران جوان و نخبگان دانشگاه آزاد اسلامی",
+    "link": "https://bpj.iau.ir"
   },
   {
     "name": "سامانه ساجد (امور مالی و دانشجویی)",
