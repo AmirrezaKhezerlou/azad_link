@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سامانه‌یاب دانشگاه آزاد</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-bar">
+    <div class="info-btn" onclick="showAboutDialog()">
+      <img src="icons/info.svg" alt="info">
+    </div>
+    <div class="app-title">
+      <img src="assets/azad.png" alt="IAU Logo">
+      <div>
+        <h1>دانشگاه آزاد اسلامی</h1>
+        <p>سامانه یاب دانشگاه آزاد</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="جستجو..." oninput="filterSystems()">
+    </div>
+    <div id="systemsList" class="systems-list"></div>
+  </main>
+
+  <div id="aboutDialog" class="dialog hidden">
+    <div class="dialog-content">
+      <h2>درباره سامانه</h2>
+      <p>این پلتفرم به منظور دسترسی سریع و یکپارچه به سامانه‌های دانشگاهی طراحی شده است.</p>
+      <hr>
+      <p><strong>توسعه‌دهنده:</strong> انجمن علمی کامپیوتر دانشگاه آزاد اسلامی واحد خوی</p>
+      <p><strong>حامی پروژه:</strong> باشگاه پژوهشگران جوان و نخبگان دانشگاه آزاد واحد خوی</p>
+      <button onclick="closeAboutDialog()">متوجه شدم</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

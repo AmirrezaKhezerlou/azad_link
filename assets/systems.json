@@ -1,0 +1,34 @@
+[
+  {
+    "name": "سامانه مدیریت مشتریان",
+    "link": "https://crm.example.com"
+  },
+  {
+    "name": "سامانه مالی",
+    "link": "https://finance.example.com"
+  },
+  {
+    "name": "سامانه منابع انسانی",
+    "link": "https://hr.example.com"
+  },
+  {
+    "name": "سامانه انبارداری",
+    "link": "https://inventory.example.com"
+  },
+  {
+    "name": "سامانه فروش",
+    "link": "https://sales.example.com"
+  },
+  {
+    "name": "سامانه پشتیبانی",
+    "link": "https://support.example.com"
+  },
+  {
+    "name": "سامانه گزارشات",
+    "link": "https://reports.example.com"
+  },
+  {
+    "name": "سامانه تحلیل داده",
+    "link": "https://analytics.example.com"
+  }
+]
